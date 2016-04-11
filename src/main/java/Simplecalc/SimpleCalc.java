@@ -17,7 +17,7 @@ public class SimpleCalc {
 	}
 
 	public void div(int x, int y){
-		if(y != 0)
+		if(y != 0) //분모가 0이 아닌 경우
 			result = x/y;
 		else
 			System.out.println("분모가 0입니다.");
