@@ -30,7 +30,8 @@ public class SimpleCalcTest {
 		assertEquals(200,calc1.getResult());
 
 	}
-
+	
+	@Test
 	public void testDiv() {
 		SimpleCalc calc1 = new SimpleCalc();
 		calc1.div(20,10);
