@@ -38,4 +38,15 @@ public class SimpleCalcTest {
 		assertEquals(2,calc1.getResult());
 
 	}
+	
+	@Test
+	public void testinc() {
+		SimpleCalc calc1 = new SimpleCalc();
+		calc1.inc(10);
+		assertEquals(10,calc1.getResult());
+		calc1.inc(20);
+		assertEquals(30,calc1.getResult());
+	}
+	
+	
 }
