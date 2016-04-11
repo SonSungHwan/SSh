@@ -31,4 +31,10 @@ public class SimpleCalcTest {
 
 	}
 
+	public void testDiv() {
+		SimpleCalc calc1 = new SimpleCalc();
+		calc1.div(20,10);
+		assertEquals(2,calc1.getResult());
+
+	}
 }
